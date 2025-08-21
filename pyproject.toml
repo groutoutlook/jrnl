@@ -179,3 +179,38 @@ deps =
 commands = pytest {posargs}
 passenv = HOME
 """
+
+[project]
+name = "jrnl"
+version = "4.2.1"
+description = "Collect your thoughts and notes without leaving the command line."
+authors = [
+  { name = "jrnl contributors", email = "maintainers@jrnl.sh" },
+  { name = "Manuel Ebert", email = "manuel@1450.me" },
+  { name = "Jonathan Wren", email = "jonathan@nowandwren.com" },
+  { name = "Micah Ellison", email = "micahellison@gmail.com" }
+]
+maintainers = [
+  { name = "Jonathan Wren and Micah Ellison", email = "maintainers@jrnl.sh" }
+]
+license = { text = "GPL-3.0-only" }
+readme = "README.md"
+homepage = "https://jrnl.sh"
+repository = "https://github.com/jrnl-org/jrnl"
+classifiers = [
+  "Topic :: Office/Business :: News/Diary",
+  "Environment :: Console",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "colorama >=0.4",
+  "cryptography >=3.0",
+  "keyring >=21.0",
+  "parsedatetime >=2.6",
+  "python-dateutil >=2.8",
+  "pyxdg >=0.27.0",
+  "ruamel.yaml >=0.17.22",
+  "ruamel.yaml.clib >=0.2.12",
+  "rich >=14.1.0, <14.2.0",
+  "tzlocal >=4.0"
+]
