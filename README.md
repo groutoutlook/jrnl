@@ -5,7 +5,7 @@ License: https://www.gnu.org/licenses/gpl-3.0.html
 
 <p align="center">
 <a href="https://jrnl.sh">
-<img align="center" src="https://raw.githubusercontent.com/jrnl-org/jrnl/develop/docs_theme/assets/readme-header.png" style="max-width: 40%;"/>
+<img align="center" src="https://raw.githubusercontent.com/jrnl-org/jrnl/develop/docs_theme/assets/readme-header.png" style="max-width: 40%;" width="400"/>
 </a>
 </p>
 
