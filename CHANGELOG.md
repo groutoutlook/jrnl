@@ -1,20 +1,28 @@
 # Changelog
 
-## [Unreleased](https://github.com/jrnl-org/jrnl/)
+## [v4.3](https://pypi.org/project/jrnl/v4.3/) (2026-02-24)
 
-[Full Changelog](https://github.com/jrnl-org/jrnl/compare/v4.2.1...HEAD)
-
-**Fixed bugs:**
-
-- poetry warning -  "poetry.dev-dependencies" section is deprecated [\#1975](https://github.com/jrnl-org/jrnl/issues/1975)
-- Homebrew autobump error on jrnl release [\#1961](https://github.com/jrnl-org/jrnl/issues/1961)
+[Full Changelog](https://github.com/jrnl-org/jrnl/compare/v4.3-beta...v4.3)
 
 **Build:**
 
+- Modernize pyproject [\#2046](https://github.com/jrnl-org/jrnl/pull/2046) ([micahellison](https://github.com/micahellison))
 - Remove release step to publish to Homebrew [\#1994](https://github.com/jrnl-org/jrnl/pull/1994) ([micahellison](https://github.com/micahellison))
+
+**Documentation:**
+
+- Doc missing: Setting location of journal [\#2019](https://github.com/jrnl-org/jrnl/issues/2019)
+- \[Documentation change\] Update command line reference [\#2032](https://github.com/jrnl-org/jrnl/pull/2032) ([katielin019](https://github.com/katielin019))
+- Add example of how to configure location of a journal [\#2020](https://github.com/jrnl-org/jrnl/pull/2020) ([matthiasbeyer](https://github.com/matthiasbeyer))
 
 **Packaging:**
 
+- Update actions/checkout action to v6 [\#2053](https://github.com/jrnl-org/jrnl/pull/2053) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/cache action to v5 [\#2052](https://github.com/jrnl-org/jrnl/pull/2052) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency rich to \>=14.3.2,\<14.4.0 [\#2051](https://github.com/jrnl-org/jrnl/pull/2051) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency python to 3.14 [\#2050](https://github.com/jrnl-org/jrnl/pull/2050) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/setup-python action to v6 [\#2031](https://github.com/jrnl-org/jrnl/pull/2031) ([renovate[bot]](https://github.com/apps/renovate))
+- Add support for Python 3.14 [\#2015](https://github.com/jrnl-org/jrnl/pull/2015) ([micahellison](https://github.com/micahellison))
 - Update dependency pa11y-ci to v4 [\#2014](https://github.com/jrnl-org/jrnl/pull/2014) ([renovate[bot]](https://github.com/apps/renovate))
 - Update dependency rich to \>=14.1.0, \<14.2.0 [\#2013](https://github.com/jrnl-org/jrnl/pull/2013) ([renovate[bot]](https://github.com/apps/renovate))
 - Update dependency requests to v2.32.4 [\#2010](https://github.com/jrnl-org/jrnl/pull/2010) ([renovate[bot]](https://github.com/apps/renovate))
